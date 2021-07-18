@@ -1,0 +1,157 @@
+.formulario {
+    padding: 2rem 1rem;
+    background-color: #66d49b;
+}
+.col-3{
+    padding: 2rem 0 2rem 4rem;
+}
+
+img{
+        width: 100px;
+}
+
+.card{
+    width: auto;
+}
+.tarjeta.col-6 {
+        width: 30%;
+    }
+
+
+    p {
+        margin: 0;
+    }
+    *, ::after, ::before {
+        box-sizing: content-box;
+    }
+
+    img.card-img-top {
+        width: 10rem;
+        align-self: center;
+        margin: 1rem 0;
+    }
+    .container.tarjetas {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .redes-sociales {
+        text-align-last: center;
+        /* width: 20px; */
+    }
+    .redes-sociales img {
+        width: 45px;
+        padding: 1rem 0;
+    }
+
+    .redes-sociales a {
+        padding-right: 20px;
+    }
+
+    /*Banner*/
+
+    .banner {
+        position: relative;
+        padding-top: 2rem;
+        height: 520px;
+        background: linear-gradient(#66d49b, #fff);
+    }
+    img.derecha {
+        float: right;
+        margin-left: 15px;
+        width: 40%;
+    }
+    .text-banner {
+        vertical-align: 36rem;
+        position: absolute;
+        left: 10%;
+        top: 20%;
+        right: 50%;
+    }
+
+    p#title-banner {
+        font-size: 25pt;
+        font-weight: bold;
+        padding-bottom: 2rem;
+    }
+
+    /*Menu*/
+    img.logo {
+        width: 15%;
+    }
+    ul.navbar-nav {
+        width: 100%;
+    }
+    li.nav-item {
+        width: 100%;
+    }
+    ul.navbar-nav {
+        width: 100%;
+    }
+    h1 {
+        text-align: -webkit-center;
+        padding-bottom: 2rem;
+    }
+
+    /*Formulario*/
+    .descripcion-form {
+        margin: 2rem;
+        text-align: justify;
+    }
+
+    .col-9 {
+        flex: 0 0 auto;
+        width: 60%;
+    }
+
+/*carousel*/
+
+h2#subtitulo {
+    text-align: center;
+    color: #66d49b;
+    font-weight: bold;
+}
+
+h3{
+    color: #66d49b;
+    font-weight: bold;
+}
+
+.w-100 {
+    width: 70%!important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../images/left.png");
+}
+
+.carousel-control-next-icon {
+    background-image: url("../images/right.png");
+}
+
+.col-6.slider {
+    flex: auto;
+    width: 40%;
+}
+
+.carousel-item {
+    width: 70%;
+}
+
+.row.sliders-item {
+    align-items: center;
+}
+
+
+
+/*Footer*/
+footer{
+    background: #000;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+/*mapa*/
+.mapa.container {
+    text-align-last: center;
+    padding: 2rem 0;
+}
